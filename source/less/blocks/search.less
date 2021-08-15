@@ -1,0 +1,34 @@
+.search__input {
+  font-family: 'Montserrat', sans-serif;
+  width: 335px;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  padding-left: 49px;
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: normal;
+    color: @gray;
+  }
+}
+
+
+@media (min-width: @tablet-width) {
+  .search__input {
+    font-family: 'Roboto', sans-serif;
+    width: 344px;
+    border: 1px solid #EBEBF1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 38px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .search__input {
+    width: 763px;
+  }
+}

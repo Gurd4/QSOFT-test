@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preload" href="fonts/roboto.woff2" type="font/woff2" as="font">
+  <link rel="preload" href="fonts/robotobold.woff2" type="font/woff2" as="font">
+  <link rel="preload" href="fonts/montserrat.woff2" type="font/woff2" as="font">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page-body">
+  <div class="page-body__wrap">
+    <header class="page-header">
+      <div class="page-header__wrap">
+        <a href="#" class="page-header__logo">
+          <img src="img/logo.png" alt="логотип сайта">
+        </a>
+      </div>
+      <form class="page-header__form" action="#">
+        <label for="search" class="search">
+          <span class="visually-hidden">Поиск по сайту</span>
+          <input type="text" id="search" class="search__input" placeholder="Найти...">
+        </label>
+      </form>
+      <div class="page-header__profile user">
+        <p class="user__name">Константин</p>
+        <div class="user__photo"></div>
+      </div>
+    </header>
+    <main class="main-container">
+      <div class="main-container__wrapp">
+        <h2 class="main-container__tltle">наши партнёры</h2>
+        <section class="main-container__partners partners">
+          <a href="#" class="partners__item">
+            <picture>
+              <source media='(min-width: 1440px)' srcset='img/henkei-logo-desktop.png'>
+              <source media='(min-width: 768px)' srcset='img/henkei-logo-tablet.png'>
+              <img src="img/henkei-logo-mobile.png" class="partners__logo" alt="Henkel">
+            </picture>
+          </a>
+          <a href="#" class="partners__item">
+            <picture>
+              <source media='(min-width: 1440px)' srcset='img/johndeere-logo-desktop.png'>
+              <source media='(min-width: 768px)' srcset='img/johndeere-logo-tablet.png'>
+              <img src="img/johndeere-logo-mobile.png" class="partners__logo" alt="John Deere">
+            </picture>
+          </a>
+          <a href="#" class="partners__item">
+            <picture>
+              <source media='(min-width: 1440px)' srcset='img/mcdonalds-logo-desktop.png'>
+              <source media='(min-width: 768px)' srcset='img/mcdonalds-logo-tablet.png'>
+              <img src="img/mcdonalds-logo-mobile.png" class="partners__logo" alt="McDonalds">
+            </picture>
+          </a>
+          <a href="#" class="partners__item">
+            <picture>
+              <source media='(min-width: 1440px)' srcset='img/ikea_logo-desktop.png'>
+              <source media='(min-width: 768px)' srcset='img/ikea_logo-tablet.png'>
+              <img src="img/ikea_logo-mobile.png" class="partners__logo" alt="IKEA">
+            </picture>
+          </a>
+          <a href="#" class="partners__item">
+            <picture>
+              <source media='(min-width: 1440px)' srcset='img/reebok-logo-desktop.png'>
+              <source media='(min-width: 768px)' srcset='img/reebok-logo-tablet.png'>
+              <img src="img/reebok-logo-mobile.png" class="partners__logo" alt="Reebok">
+            </picture>
+          </a>
+          <a href="#" class="partners__item">
+            <picture>
+              <source media='(min-width: 1440px)' srcset='img/nike-logo-desktop.png'>
+              <source media='(min-width: 768px)' srcset='img/nike-logo-tablet.png'>
+              <img src="img/nike-logo-mobile.png" class="partners__logo" alt="Nike">
+            </picture>
+          </a>
+          <a href="#" class="partners__item">
+            <picture>
+              <source media='(min-width: 1440px)' srcset='img/caterpillar-logo-desktop.png'>
+              <source media='(min-width: 768px)' srcset='img/caterpillar-logo-tablet.png'>
+              <img src="img/caterpillar-logo-mobile.png" class="partners__logo" alt="CATERPILLAR">
+            </picture>
+          </a>
+        </section>
+      </div>
+    </main>
+  </div>
+</body>
+</html> 
